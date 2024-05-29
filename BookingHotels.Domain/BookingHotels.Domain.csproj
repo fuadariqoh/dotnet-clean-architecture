@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Apartments\" />
     <Folder Include="Abstractions\" />
+    <Folder Include="Shared/" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
