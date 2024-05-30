@@ -57,7 +57,7 @@ public class Booking : Entity
 
 
     public static Booking Reserve(
-        Guid apartmentId,
+        Apartment apartment,
         Guid userId,
         DateRange duration,
         DateTime utcNow,
@@ -65,7 +65,7 @@ public class Booking : Entity
     {
         var booking = new Booking(
             Guid.NewGuid(),
-            apartmentId,
+            apartment.Id,       
             userId,
             duration,
             pricingDetails.PriceForPeriod,
