@@ -12,7 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Apartments\" />
-    <Folder Include="Abstractions\" />
     <Folder Include="Shared/" />
   </ItemGroup>
   <ItemGroup>
